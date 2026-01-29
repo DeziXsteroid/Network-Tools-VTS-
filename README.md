@@ -1,4 +1,4 @@
-# Network-Tools-VTS
+# Network-Tools-VTS (0.8 Beta)
 
 The VTS program is written in Python and offers a huge number of capabilities for network programmers, including: 
 - IP scanner

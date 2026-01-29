@@ -6,6 +6,7 @@ The VTS program is written in Python and offers a huge number of capabilities fo
 - TCP connection.
 - UDP connection.
 - Serial connection.
+
 The program is suitable for network engineers, AV specialists and ordinary users.
 
 *The program requires internet access the first time to download the database of devices that you will see in the IP scan table.*

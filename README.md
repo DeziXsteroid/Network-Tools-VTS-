@@ -1,18 +1,56 @@
 # Network-Tools-VTS (0.8 Beta)
 
-The VTS program is written in Python and offers a huge number of capabilities for network programmers, including: 
-- IP scanner
-- Send Request,
-- TCP connection.
-- UDP connection.
-- Serial connection.
+<p align="center">
+  <a href="https://github.com/<USER>/<REPO>/releases/latest">
+    <img alt="Download" src="https://img.shields.io/badge/Download-Latest%20Release-brightgreen?style=for-the-badge">
+  </a>
+  <a href="https://github.com/<USER>/<REPO>/releases">
+    <img alt="Releases" src="https://img.shields.io/badge/Releases-All-blue?style=for-the-badge">
+  </a>
+</p>
 
-The program is suitable for network engineers, AV specialists and ordinary users.
+<p align="center">
+  <img alt="Python" src="https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square">
+  <img alt="License" src="https://img.shields.io/badge/License-MIT-yellow?style=flat-square">
+</p>
 
-*The program requires internet access the first time to download the database of devices that you will see in the IP scan table.*
+**VTS** — десктопный набор сетевых инструментов для инженеров и AV-специалистов: IP Scan, Port Scan, Send Request (TCP/UDP/Serial) и т.д.
 
-# Guide TO use
+---
 
-To use, run VTscanner.exe, and you'll see a window with an IP scan. You can enter your range and scan. You can automate this process in the settings. In the Send Req section, you can select the request type, the address you want to send it to, enter the required parameters, and send. In TCP/UDP, you can connect to devices/servers using this protocol and send commands in various formats. You can do the same in Serial, but be sure to set the correct parameters! Saved network scans will be available in the Presets tab, and you can export them to Excel!
+## ✨ Download
+➡️ **Скачать последнюю версию:**  
+https://github.com/<USER>/<REPO>/releases/latest
 
-*Please give feedback if you find any errors, as it's difficult to develop programs of this scale alone)
+> Рекомендуется скачивать `.zip` из Releases.
+
+---
+
+## 🔥 Features
+- **IP Scanner** — скан диапазона, производитель (OUI/manuf), ping
+- **Port Scan** — быстрый scan портов
+- **Send Request** — TCP / UDP / Serial
+- Логи, пресеты, экспорт в Excel (если есть)
+
+---
+
+## 🖼️ Screenshots
+<p align="center">
+  <img src="assets/screenshots/main.png" width="850">
+</p>
+
+---
+
+## 🚀 Quick Start (Windows)
+1) Скачай архив из Releases  
+2) Распакуй  
+3) Запусти `VTScanner.exe`
+
+> При первом запуске может понадобиться интернет для загрузки базы производителей (если так у тебя устроено).
+
+---
+
+## ⚙️ Build from source
+```bash
+pip install -r requirements.txt
+python ui.py

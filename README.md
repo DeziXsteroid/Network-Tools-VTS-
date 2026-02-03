@@ -1,8 +1,8 @@
-## Загрузка актуальной версии
+## Загрузка последней версии (0.9)
 
 <p align="center">
   <a href="https://github.com/DeziXsteroid/Network-Tools-VTS-/releases/download/0.9_Beta/VTScanner.exe">
-    <img alt="Download VTScanner" src="https://img.shields.io/badge/Download-VTScanner.exe-brightgreen?style=for-the-badge">
+    <img alt="Download" src="https://img.shields.io/badge/GitHub-Download%20VTScanner.exe-24292e?style=for-the-badge&logo=github">
   </a>
 </p>
 
